@@ -6,7 +6,7 @@
 
    ​	phone: +371 22 305 309
 
-3. Summary:
+3. Summary: My goal is to become a frontend developer. Now I have already mastered the profession of a HTML/CSS coder and  I actively studying JavaScript and React. I used to work as a designer and have a design education. At some point, I decided that I should know what was "under the hood". But after trying to develop sites, I realized-this is mine. It is not a problem for me to understand the design and build a site of average complexity. I have experience working in a small team.
 
 4. Skills:  HTML5, CSS3, JavaScript. Sass, Pug, git, emmet, gulp, Bootstrap 4. Adaptive. 
    Adobe (Photoshop, Illustrator, InDesign). Figma. VSCode
