@@ -14,13 +14,10 @@
 5. Code examples: 
 
 6. Experience: 
-
      Portfolio - https://andreitol.bitbucket.io/
-
      Source code example - https://bitbucket.org/andreitol/timecaps/src/app/
 
 7. Education: 
-
    2019	Online course "Lectrum". –"The intensive course of JavaScript Basic".
    2017	Vocational education institution "Webskola". – "HTML + CSS module".
    2016	Online school "Bang! Bang! Education. D. Karpov" – "Design thinking".
