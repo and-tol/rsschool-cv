@@ -13,8 +13,8 @@
 
 5. Code examples: 
 
-6. Experience: 
-     Portfolio - https://andreitol.bitbucket.io/
+6. Experience:<br/>
+     Portfolio - https://andreitol.bitbucket.io/<br/>
      Source code example - https://bitbucket.org/andreitol/timecaps/src/app/
 
 7. Education:<br/>
