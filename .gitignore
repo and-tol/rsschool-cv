@@ -54,6 +54,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Photoshop fail
+*.psd
+
+/temp
 index-2.html
 fragment.html
 
