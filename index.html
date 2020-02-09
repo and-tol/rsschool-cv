@@ -10,11 +10,16 @@
       /* MAIN STYLE */
       :root {
       }
+      html,
+      body {
+        height: 100%;
+      }
 
       body {
         color: #000;
         line-height: 1.6;
         font-size: 18px;
+        margin: 0;
       }
       p {
         padding-left: 30px;
@@ -28,9 +33,42 @@
       .main-container {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
-        margin: 0 auto;
+        min-height: 100%;
+      }
+      .container {
         max-width: 1024px;
+        margin: auto;
+        display: flex;
+      }
+
+      /* HEADER STYLE */
+      .header {
+        padding: 200px 100px;
+        background-color: #050505;
+        background-image: url('./portrait.png');
+        background-size: 71%;
+        background-repeat: no-repeat;
+        background-position-x: right;
+      }
+      .header_info {
+        width: 50%;
+        color: #fff;
+      }
+
+      .header_picture {
+        width: 50%;
+      }
+      .portrait {
+        width: 100%;
+      }
+
+      /* MAIN STYLE */
+      main {
+        flex: 0 0 1;
+      }
+      /* FOOTER STYLE*/
+      .footer {
+        flex: 0 0 auto;
       }
     </style>
   </head>
@@ -39,15 +77,19 @@
     <div class="main-container">
       <!-- HEADER START -->
       <header class="header">
-        <div class="header_info">
-          <h1 class="title">Andrei.Tolstoi</h1>
-          <p class="post-title">Junior Front-End Developer</p>
-          <h3 class="title-info">Contact Info</h3>
-          <p>email: <a href="mailto:tolstoi.a@gmail.com"> tolstoi.a@gmail.com</a></p>
-          <p>phone: <a href="tel:+37122305309">+371 22 305309</a></p>
-        </div>
-        <div class="header_picture">
-          <img src="portrait.png" alt="portrait" />
+        <div class="wrapper  container">
+          <div class="header_info">
+            <h1 class="title">Andrei.Tolstoi</h1>
+            <p class="post-title">Junior Front-End Developer</p>
+            <h3 class="title-info">Contact Info</h3>
+            <p>email: <a href="mailto:tolstoi.a@gmail.com"> tolstoi.a@gmail.com</a></p>
+            <p>phone: <a href="tel:+37122305309">+371 22 305309</a></p>
+          </div>
+          <div class="header_picture">
+            <div class="portrait">
+              <!-- <img src="portrait.png" alt="portrait" /> -->
+            </div>
+          </div>
         </div>
       </header>
       <!-- HEADER START END -->
