@@ -4,29 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" />
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.css" />
     <style>
       /* MAIN STYLE */
+      * {
+        margin: 0;
+      }
       :root {
+        --color: #fff;
+        --color-title: #c0a062;
+        --bg-color: #181818;
       }
       html,
       body {
         height: 100%;
-      }
-
-      body {
-        color: #000;
+        color: var(--color);
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1.5px;
         line-height: 1.6;
         font-size: 18px;
-        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
       }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 2px;
+      }
+
       p {
         padding-left: 30px;
       }
 
       a {
-        color: #000000;
+        color: var(--color);
         text-decoration: dotted;
         cursor: pointer;
       }
@@ -40,6 +60,9 @@
         margin: auto;
         display: flex;
       }
+      .colon {
+        color: var(--color-title);
+      }
 
       /* HEADER STYLE */
       .header {
@@ -52,7 +75,11 @@
       }
       .header_info {
         width: 50%;
-        color: #fff;
+      }
+      .header_post-title {
+        padding: 0;
+        line-height: normal;
+        margin: 0;
       }
 
       .header_picture {
@@ -60,6 +87,17 @@
       }
       .portrait {
         width: 100%;
+      }
+      .header_title {
+        color: var(--color-title);
+        font-size: 50px;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+      }
+
+      .title-info {
+        margin-top: 30px;
       }
 
       /* MAIN STYLE */
@@ -79,9 +117,9 @@
       <header class="header">
         <div class="wrapper  container">
           <div class="header_info">
-            <h1 class="title">Andrei.Tolstoi</h1>
-            <p class="post-title">Junior Front-End Developer</p>
-            <h3 class="title-info">Contact Info</h3>
+            <h1 class="header_title">Andrei Tolstoi</h1>
+            <p class="header_post-title">Junior Front-End Developer</p>
+            <h3 class="title-info">Contact Info<span class="colon">:</span></h3>
             <p>email: <a href="mailto:tolstoi.a@gmail.com"> tolstoi.a@gmail.com</a></p>
             <p>phone: <a href="tel:+37122305309">+371 22 305309</a></p>
           </div>
