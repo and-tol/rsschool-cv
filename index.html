@@ -115,16 +115,31 @@
         flex: 0 0 1;
       }
       /* Summary */
-      .summary {
+      .section {
         background-color: var(--bg-color);
+        position: relative;
       }
-      .summary .wrapper {
+      .section .wrapper {
         flex-direction: column;
       }
       .summary p {
         column-count: 2;
         column-gap: 2rem;
       }
+
+      .section .line {
+        width: 50%;
+        text-align: center;
+        height: 1px;
+        border: 0;
+        background-color: var(--color-title);
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
       /* FOOTER STYLE*/
       .footer {
         flex: 0 0 auto;
@@ -167,65 +182,80 @@
               complexity. I have experience working in a small team.
             </p>
           </div>
+          <hr class="line" />
         </section>
 
-        <section class="skills">
-          <h3 class="title-info">Skills</h3>
-          <p>
-            HTML5, CSS3, JavaScript. Sass, Pug, git, emmet, gulp, Bootstrap 4. Adaptive. Adobe (Photoshop, Illustrator,
-            InDesign). Figma. VSCode
-          </p>
+        <section class="skills section">
+          <div class="wrapper">
+            <h3 class="title-info">Skills</h3>
+            <p>
+              HTML5, CSS3, JavaScript. Sass, Pug, git, emmet, gulp, Bootstrap 4. Adaptive.
+              <br />
+              Adobe (Photoshop, Illustrator, InDesign). Figma. VSCode
+            </p>
+          </div>
+          <hr class="line" />
         </section>
 
-        <section class="experience">
-          <h3 class="title-info">Experience</h3>
-          <p>
-            Portfolio:
-            <a href="https://andreitol.bitbucket.io/">andreitol.bitbucket.io</a>
-          </p>
-          <p>
-            Source code example:
-            <a href="https://bitbucket.org/andreitol/timecaps/src/app/">bitbucket.org/andreitol/timecaps/src/app/</a>
-          </p>
+        <section class="experience section">
+          <div class="wrapper">
+            <h3 class="title-info">Experience</h3>
+            <p>
+              Portfolio:
+              <a href="https://andreitol.bitbucket.io/">andreitol.bitbucket.io</a>
+            </p>
+            <p>
+              Source code example:
+              <a href="https://bitbucket.org/andreitol/timecaps/src/app/">bitbucket.org/andreitol/timecaps/src/app/</a>
+            </p>
+          </div>
+          <hr class="line" />
         </section>
-        <section class="education">
-          <h3 class="title-info">Education</h3>
-          <table>
-            <tr>
-              <td>2019</td>
-              <td>Online course "Lectrum"</td>
-              <td>The intensive course of JavaScript Basic</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>Vocational education institution "Webskola"</td>
-              <td>HTML + CSS module</td>
-            </tr>
-            <tr>
-              <td>2016</td>
-              <td>Online school "Bang! Bang! Education. D. Karpov"</td>
-              <td>"Design thinking"</td>
-            </tr>
-            <tr>
-              <td>2016</td>
-              <td>School of interns "Gorbunov's Bureau"</td>
-              <td>Designer. 1st level: student</td>
-            </tr>
-            <tr>
-              <td>2015</td>
-              <td>Online course W.D.I.</td>
-              <td>Intensive web design course</td>
-            </tr>
-            <tr>
-              <td>2014</td>
-              <td>Online Education Center Netology.ru</td>
-              <td>"Web designer: effective website from idea to implementation".</td>
-            </tr>
-          </table>
+
+        <section class="education section">
+          <div class="wrapper">
+            <h3 class="title-info">Education</h3>
+            <table>
+              <tr>
+                <td>2019</td>
+                <td>Online course "Lectrum"</td>
+                <td>The intensive course of JavaScript Basic</td>
+              </tr>
+              <tr>
+                <td>2017</td>
+                <td>Vocational education institution "Webskola"</td>
+                <td>HTML + CSS module</td>
+              </tr>
+              <tr>
+                <td>2016</td>
+                <td>Online school "Bang! Bang! Education. D. Karpov"</td>
+                <td>"Design thinking"</td>
+              </tr>
+              <tr>
+                <td>2016</td>
+                <td>School of interns "Gorbunov's Bureau"</td>
+                <td>Designer. 1st level: student</td>
+              </tr>
+              <tr>
+                <td>2015</td>
+                <td>Online course W.D.I.</td>
+                <td>Intensive web design course</td>
+              </tr>
+              <tr>
+                <td>2014</td>
+                <td>Online Education Center Netology.ru</td>
+                <td>"Web designer: effective website from idea to implementation".</td>
+              </tr>
+            </table>
+          </div>
+          <hr class="line" />
         </section>
-        <section class="english">
-          <h3 class="title-info">English</h3>
-          <p>A1</p>
+
+        <section class="english section">
+          <div class="wrapper">
+            <h3 class="title-info">English</h3>
+            <p>A1</p>
+          </div>
         </section>
       </main>
       <!-- MAIN CONTENT END -->
