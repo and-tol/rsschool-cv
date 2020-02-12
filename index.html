@@ -18,6 +18,7 @@
         --color: #fff;
         --color-title: #c0a062;
         --bg-color: #181818;
+        --left: 30px;
       }
       html,
       body {
@@ -42,7 +43,7 @@
       }
 
       p {
-        padding-left: 30px;
+        padding-left: var(--left);
       }
 
       a {
@@ -141,6 +142,7 @@
       }
       /* Education section style */
       .education table {
+        margin-left: var(--left);
         border-collapse: collapse;
       }
       .education table td {
